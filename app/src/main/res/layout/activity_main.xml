@@ -74,7 +74,7 @@
 
                     android:textColor="@android:color/white"
                     android:background="@drawable/btn"
-                    android:text="Check All Chines Apps">
+                    android:text="Check All Unwanted Apps">
 
                 </Button>
 

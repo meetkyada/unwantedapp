@@ -109,7 +109,7 @@
             android:textAlignment="center"
             android:textColor="#ed3237"
 
-            android:text="Your Device In Not Found Any China Apps "
+            android:text="Your Device In Not Found Any Unwanted Apps "
             android:visibility="gone"
             android:id="@+id/goodtext"
             android:layout_height="match_parent">

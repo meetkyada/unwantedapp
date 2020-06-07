@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCCCD"
+    tools:context=".MainActivity">
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/displayActivty"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/deleeapp"
+
+        app:lottie_url="REPLACE_JSON_URL" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/goodjob"
+        android:layout_marginTop="20dp"
+
+        app:lottie_loop="false"
+        app:lottie_url="REPLACE_JSON_URL" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/main2Activity"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/scanmob"
+
+        app:lottie_loop="true"
+        app:lottie_url="REPLACE_JSON_URL" />
+    <TextView
+        android:layout_width="match_parent"
+       android:layout_below="@+id/main2Activity"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#ed3237"
+
+        android:text="All Application List"
+        android:visibility="gone"
+        android:id="@+id/allchinatext"
+        android:layout_height="match_parent">
+
+    </TextView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+
+        app:cardCornerRadius="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click To Uninstall Apps"
+            android:textSize="@dimen/_20sdp"
+            android:visibility="gone"
+            android:id="@+id/uni"
+            android:textAlignment="center">
+
+        </TextView>
+
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/greatwork"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:visibility="gone"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="false"
+            app:lottie_rawRes="@raw/greatwork"
+
+            app:lottie_url="REPLACE_JSON_URL" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="230dp"
+        android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#ed3237"
+
+            android:text="Your Device In Not Found Any China Apps "
+            android:visibility="gone"
+            android:id="@+id/goodtext"
+            android:layout_height="match_parent">
+
+        </TextView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/_35sdp">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

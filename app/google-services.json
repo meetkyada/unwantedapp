@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "511456022163",
+    "firebase_url": "https://unwanted-apps.firebaseio.com",
+    "project_id": "unwanted-apps",
+    "storage_bucket": "unwanted-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511456022163:android:46b6ab53f8c148dfa54766",
+        "android_client_info": {
+          "package_name": "com.unwantedapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511456022163-k985l660j9lgvb8ca5mshh55ptlnop2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8-tNLBWUCEzTcnuIXpgtEODS0m8xSrFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511456022163-k985l660j9lgvb8ca5mshh55ptlnop2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
